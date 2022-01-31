@@ -3,12 +3,13 @@ package com.test;
 import org.apache.activemq.artemis.jms.client.ActiveMQXAConnectionFactory;
 import org.jboss.narayana.jta.jms.ConnectionFactoryProxy;
 import org.jboss.narayana.jta.jms.TransactionHelperImpl;
-import javax.enterprise.context.Dependent;
+
+import javax.enterprise.context.ApplicationScoped;
 import javax.enterprise.inject.Produces;
 import javax.inject.Named;
 import javax.transaction.TransactionManager;
 
-@Dependent()
+@ApplicationScoped
 public class XAConnectionFactoryConfiguration {
 
     @Produces()
