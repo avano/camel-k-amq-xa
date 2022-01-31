@@ -10,6 +10,7 @@ import javax.inject.Named;
 import javax.transaction.TransactionManager;
 
 @ApplicationScoped
+@io.quarkus.arc.Unremovable
 public class XAConnectionFactoryConfiguration {
 
     @Produces()
