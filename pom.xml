@@ -122,4 +122,16 @@
       </properties>
     </profile>
   </profiles>
+  <repositories>
+    <repository>
+      <id>mrrc-ga</id>
+      <url>https://maven.repository.redhat.com/ga/</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>mrrc-ga</id>
+      <url>https://maven.repository.redhat.com/ga/</url>
+    </pluginRepository>
+  </pluginRepositories>
 </project>
